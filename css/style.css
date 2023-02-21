@@ -1,0 +1,15 @@
+.listaCompras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lista{
+    display: flex;
+}
+#imagenes{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+}
