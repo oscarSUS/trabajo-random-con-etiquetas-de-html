@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Shantell+Sans:wght@300&display=swap');
+body{
+    background: #94BFBE;
+}
 .listaCompras{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:#C98CA7;
+    width: 500px;
+    height: 500px;
+    border-radius: 56px;
+    margin: auto;
+    border: solid 2px beige;
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(255, 255, 255)
+}
+#subtitulo{
+
 }
 #lista{
     display: flex;
 }
 #imagenes{
     display: flex;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     flex-direction: column;
 }
