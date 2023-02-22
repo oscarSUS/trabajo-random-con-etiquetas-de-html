@@ -16,9 +16,6 @@ body{
     font-family: 'Shantell Sans', cursive;
     color: rgb(255, 255, 255)
 }
-#subtitulo{
-
-}
 #lista{
     display: flex;
 }
@@ -27,4 +24,36 @@ body{
     width: 70px;
     height: 70px;
     flex-direction: column;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid 1px green;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url(https://gifimage.net/wp-content/uploads/2017/06/matrix-gif-10.gif);
+    width: auto;
+}
+
+#video1{
+    width: 400px;
+    height: 400px;
+}
+
+#video2{
+    width: 400px;
+    height: 400px;
+}
+
+#video3{
+    width: 400px;
+    height: 400px;
+}
+
+#video4{
+    width: 400px;
+    height: 400px;
 }
