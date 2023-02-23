@@ -70,5 +70,42 @@
             <video id="video4" src="./css/videos/jose.mp4" controls></video>
         </figure> 
     </main>
+
+    <main>
+        <form action="">
+            <fieldset class="formulario">
+                <legend>Datos de Inscripción</legend>
+                <label for="nombre">
+                    <span>Nombre</span>
+                    <input type="nombre" id="nombre" name="nombre" autocomplete="name" placeholder="Tu Nombre Aqui">
+                </label>
+                <label for="apellido">
+                    <span>Apellido</span>
+                    <input type="apellido" id="apellido" name="apellido" autocomplete="additional-name" placeholder="Tu Apellido Aqui">
+                </label>
+                <label for="celular">
+                    <span>Numero de Celular</span>
+                    <input type="celular" id="celular" name="celular" autocomplete="cc-number" placeholder="300 100 100">
+                </label>
+                <label for="calendario">
+                    <span>Seleccione su Fecha de Nacimiento y Hora</span>
+                    <input type="datetime-local" id="calendario" name="calendario">
+                </label>
+                <label for="email">
+                    <span>Su Correo</span>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="tuemail@example.com">
+                </label>
+                <span>Seleccione el Curso</span><input list="cursos" />
+                <datalist id="cursos">
+                    <option value="JavaScript"></option>
+                    <option value="CSS3"></option>
+                    <option value="HTML5"></option>
+                    <option value="Python"></option>
+                    <option value=".NET"></option>
+                </datalist>
+                <input type="submit" id="boton"/>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>

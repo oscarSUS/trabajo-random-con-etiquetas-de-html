@@ -57,3 +57,57 @@ body{
     width: 400px;
     height: 400px;
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: stretch;
+    background-color:#C98CA7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    
+}
+
+#nombre{
+    margin-left: 254px;
+    width: 191px;
+}
+#apellido{
+    margin-top: 8px;
+    margin-left: 252px;
+    width: 191px;
+}
+#celular{
+    margin-top: 8px;
+    margin-left: 179px;
+    width: 191px;
+}
+#calendario{
+    margin-top: 8px;
+    margin-left: 11px;
+    width: 194px;
+}
+#email{
+    margin-top: 8px;
+    margin-left: 241px;
+    width: 191px;
+}
+#cursos{
+    margin: 7px;
+    width: 130px;
+}
+#boton{
+    margin-top: 8px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    background: mediumslateblue;
+    border: solid 1px black;
+    border-radius: 11px;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
